@@ -1,0 +1,14 @@
+Scenario: Barkuni Corp wants to assess candidates for proficiency in Python programming language, RESTful APIs, and containerized applications. You are tasked with designing, building, and testing a REST API backend service to the best of your ability.
+Goals: Build a new EKS cluster for “Barkuni Corp”. The company will run a single app in this Kubernetes cluster. Create all necessary files and add to the technical specifications outlined in the “Tools and Code” section.
+• Bonus: The application must include an ALB and a DNS address registered under Route53 (test.vicarius.xyz). You should be able to access the website via HTTP and view a welcome page.
+• Bonus: Implement an API router that displays all running pods in the "kube-system" namespace.
+Tools and Code (must use):
+1. Python - Flask
+2. Terraform – Module ( use existing module )
+3. Docker
+4. Kubernetes manifest/Helm chart
+• Bonus: Implement a pipeline for updating the code and Docker in GitHub Actions. Expected submission of work:
+1. Provide Kubernetes manifests required to run your application on any kind of Kubernetes distribution (k3d, Minikube, your choice).
+2. Share the Git repo and all the work in the return email and guide.
+3. Share a working link for the "Scenario" part.
+• Bonus: Write Python code using "boto3" that can create EC2 in a specific subnet (you will have multiple subnets) and OS (Linux, Windows, etc.) by applying an AMI number in advance.
